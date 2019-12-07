@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+/*Header*/
+header {
+    background-color: #f2674a;
+    color: white;
+    padding: 20px 25px;
+    margin: 0;
+}
+
+header object {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+/*First Section*/
+section:first-of-type {
+    background-color: #f2674a;
+    color: white;
+    padding: 20px 25px;
+}
+
+section:first-of-type object {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+/*First Section of Main*/
+main section:first-of-type {
+    background-color: white;
+    color: gray;
+    padding: 20px 25px;
+}
+
+main section:first-of-type object {
+    display: flex;
+    position: absolute;
+    top: 580px;
+    left: 10px;
+}
+
+main section:first-of-type {
+    padding-left: 60px;
+}
+
+/*Second Section of Main*/
+main section:nth-of-type(2) {
+    background-color: #feeecc;
+    padding: 5% 20% 5% 23%;
+}
+
+main section:nth-of-type(2) h2:first-of-type {
+    float: left;
+    padding-left: 23%;
+    padding-right: 15%;
+}
+
+main section:nth-of-type(2) object {
+    padding-left: 10%;
+}
+
+main section:nth-of-type(2) svg {
+    padding-left: 12%;
+}
+
+/*P tags*/
+p {
+    padding: 0px 25px 5px 25px;
+}
+
+/*Headers tags*/
+h1, h2, h3 {
+    padding-left: 25px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #f2674a;
+}
+
+/*Section text content*/
+section h1, h2:first-of-type, p:first-of-type, ul {
+    padding-left: 60px;
+}
+
+main section:first-of-type h2, main:first-of-type section p {
+    padding-left: 25px;
+}
+
+/*Misc.*/
+a {
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    list-style-type:none;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
